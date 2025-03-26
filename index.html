@@ -6,7 +6,7 @@
     <title>Testing Tailwind CSS</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-indigo-500">
     <div
       class="max-w-md mx-auto my-16 mx-8 bg-yellow-500 rounded-xl shadow-md overflow-hidden md:max-w-2xl"
     >
@@ -36,5 +36,11 @@
         </div>
       </div>
     </div>
+    <form>
+      <input class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent ...">
+      <button class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ...">
+        Sign up
+      </button>
+    </form>
   </body>
 </html>
