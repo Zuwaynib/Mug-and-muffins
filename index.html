@@ -70,31 +70,67 @@
       <a href="#">Pricing</a>
       <a href="#">Login</a>
     </div> -->
-    <form onsubmit="event.preventDefault()" class="container mx-auto space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md">
+    <form
+      onsubmit="event.preventDefault()"
+      class="container mx-auto space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md"
+    >
       <div class="space-y-1">
-        <label for="required" class="block text-sm font-semibold">Required Field</label>
-        <input id="required" placeholder="Required Field" class="w-full" required />
+        <label for="required" class="block text-sm font-semibold"
+          >Required Field</label
+        >
+        <input
+          id="required"
+          placeholder="Required Field"
+          class="w-full border-2 border-purple-400 rounded-md p-2 text-gray-500"
+          required
+        />
       </div>
-    
+
       <div class="space-y-1">
-        <label for="disabled" class="block text-sm font-semibold">Disabled Field</label>
-        <input id="disabled" placeholder="Disabled Field" class="w-full" disabled />
+        <label for="disabled" class="block text-sm font-semibold"
+          >Disabled Field</label
+        >
+        <input
+          id="disabled"
+          placeholder="Disabled Field"
+          class="w-full border-2 border-purple-400 rounded-md p-2 text-gray-500 bg-gray-100"
+          disabled
+        />
       </div>
-    
+
       <div class="space-y-1">
-        <label for="input" class="block text-sm font-semibold"> Input Field </label>
-        <input id="input" placeholder="Input Field"  class="w-full" />
+        <label for="input" class="block text-sm font-semibold">
+          Input Field
+        </label>
+        <input
+          id="input"
+          placeholder="Input Field"
+          class="w-full border-2 border-purple-400 rounded-md p-2 text-gray-500"
+        />
       </div>
-    
+
       <div class="space-x-1">
         <input id="terms" type="checkbox" />
         <label for="terms">I accept the terms and conditions.</label>
       </div>
-    
+
       <div class="space-x-2">
-        <button>Submit</button>
-        <button>Reset</button>
-        <button disabled>Disabled</button>
+        <button
+          class="border-2 border-purple-900 bg-purple-400 text-purple-900 px-2 py-1 rounded-md hover:bg-purple-500"
+        >
+          Submit
+        </button>
+        <button
+          class="border-2 border-purple-600 bg-transparent px-2 py-1 rounded-md text-purple-600 hover:bg-purple-100"
+        >
+          Reset
+        </button>
+        <button
+          disabled
+          class="border-2 border-purple-600 px-2 py-1 rounded-md text-purple-600 hover:bg-purple-50 hover:text-purple-700 active:bg-purple-100 disabled:text-purple-300 disabled:hover:bg-inherit"
+        >
+          Disabled
+        </button>
       </div>
     </form>
   </body>
