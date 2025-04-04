@@ -72,7 +72,7 @@
     </div> -->
     <form
       onsubmit="event.preventDefault()"
-      class="container mx-auto space-y-6 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md"
+      class="container mx-auto space-y-6 w-96 mt-16 rounded-md border-2 border-purple-600 bg-white p-4 text-purple-950 shadow-md"
     >
       <div class="space-y-1">
         <label for="required" class="block text-sm font-semibold"
@@ -93,7 +93,7 @@
         <input
           id="disabled"
           placeholder="Disabled Field"
-          class="w-full border-2 border-purple-400 rounded-md p-2 text-gray-500 bg-gray-100"
+          class="w-full border-2 border-purple-400 rounded-md p-2 text-gray-500 disabled:bg-purple-50"
           disabled
         />
       </div>
@@ -116,7 +116,7 @@
 
       <div class="space-x-2">
         <button
-          class="border-2 border-purple-900 bg-purple-400 text-purple-900 px-2 py-1 rounded-md hover:bg-purple-500"
+          class="border-2 border-current bg-purple-400 text-purple-900 px-2 py-1 rounded-md hover:bg-purple-500"
         >
           Submit
         </button>
