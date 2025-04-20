@@ -4,7 +4,7 @@ Welcome to the Mug & Muffin website — a warm, inviting digital home for our co
 
 ## 🌐 Live Demo
 
-👉 [Visit Mug & Muffin](https://your-live-site-link.com)
+👉 [Visit Mug & Muffin](https://zuwaynib.github.io/Mug-and-muffins/)
 
 ## 🛠️ Built With
 
