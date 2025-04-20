@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testing Tailwind CSS</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
       body {
@@ -137,17 +141,19 @@
           />
         </div>
       </div>
-      <section class="bg-amber-200 py-16 text-amber-950  text-center">
+      <section class="bg-amber-200 py-16 text-amber-950 text-center">
         <h2 class="text-4xl font-bold mb-12">Drop By for a Bite.</h2>
-      
-        <div class="flex justify-center items-start gap-12 divide-x divide-amber-950 max-w-4xl mx-auto px-4">
+
+        <div
+          class="flex justify-center items-start gap-12 divide-x divide-amber-950 max-w-4xl mx-auto px-4"
+        >
           <div class="px-15 text-center">
             <h3 class="text-xl font-semibold mb-2">Address</h3>
             <p>1234 Coffee St,</p>
             <p>Brewtown, CA 12345</p>
           </div>
-          <div class=" text-center">
-            <h3 class="text-xl  font-semibold mb-2">Opening Hours</h3>
+          <div class="text-center">
+            <h3 class="text-xl font-semibold mb-2">Opening Hours</h3>
             <p>Mon - Fri: 9am - 6pm</p>
             <p>Saturday: 10am - 2pm</p>
             <p>Sunday: Closed</p>
@@ -184,17 +190,25 @@
     </main>
     <footer class="bg-amber-950 text-white py-10 px-6">
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        
         <!-- Newsletter -->
         <div>
           <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
           <p class="text-sm mb-2">Subscribe to stay updated.</p>
           <form class="flex flex-col gap-2">
-            <input type="email" placeholder="Your email" class="px-4 py-2 border border-gray-300 rounded" />
-            <button type="submit" class="bg-amber-500 text-white py-2 px-4 rounded hover:bg-amber-600">Subscribe</button>
+            <input
+              type="email"
+              placeholder="Your email"
+              class="px-4 py-2 border border-gray-300 rounded"
+            />
+            <button
+              type="submit"
+              class="bg-amber-500 text-white py-2 px-4 rounded hover:bg-amber-600"
+            >
+              Subscribe
+            </button>
           </form>
         </div>
-    
+
         <!-- Talk to Us -->
         <div>
           <h3 class="text-lg font-semibold mb-4">Talk to Us</h3>
@@ -202,20 +216,26 @@
           <p class="text-sm">Phone: +123 456 7890</p>
           <p class="text-sm">Address: 123 Street Name, City</p>
         </div>
-    
+
         <!-- Social Media -->
         <div>
           <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
           <div class="flex space-x-4">
-            <a href="#" class="text-2xl hover:text-amber-600"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-2xl hover:text-amber-600"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-2xl hover:text-amber-600"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-2xl hover:text-amber-600"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-2xl hover:text-amber-600"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-2xl hover:text-amber-600"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-2xl hover:text-amber-600"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-2xl hover:text-amber-600"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </div>
         </div>
-    
       </div>
     </footer>
-    
   </body>
 </html>
