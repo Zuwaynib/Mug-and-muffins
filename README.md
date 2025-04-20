@@ -26,5 +26,5 @@ Welcome to the Mug & Muffin website — a warm, inviting digital home for our co
 Clone this repository and open the project folder:
 
 ```bash
-git clone https://github.com/yourusername/mug-and-muffin.git
+git clone [https://github.com/Zuwaynib/Mug-and-muffins]
 cd mug-and-muffin
