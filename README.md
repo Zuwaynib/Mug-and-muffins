@@ -1,27 +1,27 @@
-# Mug & Muffin Café ☕🧁
+# Mug & Muffin Café 
 
 Welcome to the Mug & Muffin website — a warm, inviting digital home for our cozy neighborhood café. This website was built to showcase our menu, ambiance, and love for good coffee, hearty muffins, and meaningful connections.
 
-## 🌐 Live Demo
+## Live Demo
 
 👉 [Visit Mug & Muffin](https://zuwaynib.github.io/Mug-and-muffins/)
 
-## 🛠️ Built With
+## Built With
 
 - **HTML5**
 - **Tailwind CSS**
 - **Font Awesome** for icons
 - **Responsive Design** for all screen sizes
 
-## 📂 Features
+## Features
   
-- 🥐 Menu & daily specials  
-- 🕓 Opening hours & contact information  
-- 📸 Gallery to showcase café aesthetics  
-- 💌 Newsletter signup  
-- 🌍 Social media links  
+-  Menu & daily specials  
+-  Opening hours & contact information  
+-  Gallery to showcase café aesthetics  
+-  Newsletter signup  
+-  Social media links  
 
-## 📦 Installation
+##  Installation
 
 Clone this repository and open the project folder:
 
